@@ -1,0 +1,13 @@
+.header {
+    position: relative;
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+    color: white
+}
+
+.header-img {
+    position: absolute;
+    left: -35px;
+    top: -18px;
+}

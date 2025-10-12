@@ -1,0 +1,31 @@
+.description-screen-first__description {
+    display: block;
+    text-align: center;
+    width: 590px;
+    margin: 0 auto;
+    row-gap: 20px;
+}
+
+.description-screen-first {
+    margin-top: 80px;
+}
+
+.description-screen-first__h2 {
+    display: block;
+    width: fit-content;
+    margin: 0 auto
+}
+
+.description-screen-first-beans {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+    width: fit-content;
+    margin: 20px auto 40px auto;
+}
+
+.description-screen-first-line {
+    height: 2px;
+    width: 60px;
+    background-color: black;
+}
