@@ -1,20 +1,11 @@
-// import Header from '../header/header';
-import MainScreenFirst from '../main-screen-first/main-screen-first';
-import DescriptionScreenFirst from '../description-screen-first/description-screen-first';
-import ProductsScreenFirst from '../products-screen-first/products-screen-first';
-import Footer from '../footer/footer';
+import FirstScreen from '../screens/first-screen';
 
 import './app.css'
 
 const App = () => {
     return (
         <>
-            <div className='mainFirstScreen'>
-                <MainScreenFirst></MainScreenFirst>
-                <DescriptionScreenFirst></DescriptionScreenFirst>
-                <ProductsScreenFirst></ProductsScreenFirst>
-                <Footer></Footer>
-            </div>
+            <FirstScreen></FirstScreen>
         </>
     )
 }
