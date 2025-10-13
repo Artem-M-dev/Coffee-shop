@@ -1,5 +1,7 @@
 .description-screen-first__description {
-    display: block;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
     text-align: center;
     width: 590px;
     margin: 0 auto;

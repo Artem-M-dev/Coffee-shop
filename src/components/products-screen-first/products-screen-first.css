@@ -1,0 +1,40 @@
+.products-screen-first {
+    margin-top: 100px;
+    background: url('../../images/Mask-Group.jpg') center center / cover no-repeat;
+    padding: 80px 0 110px;
+}
+
+.products-screen-first__title {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.products-screen-first__content {
+    display: flex;
+    width: fit-content;
+    column-gap: 70px;
+    margin: 40px auto 0 auto;
+}
+
+.products-screen-first__content-card {
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 240px;
+    padding: 22px;
+    border-radius: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.products-screen-first__content-price {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.products-screen-first__content-text {
+    margin-top: 14px;
+}
+
+.products-screen-first__content-card-c {
+    padding: 41px 22px 22px 22px;
+}
