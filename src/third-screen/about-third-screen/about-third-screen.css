@@ -1,0 +1,53 @@
+.about-third-screen {
+    position: relative;
+    margin: 70px 0 70px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 55px;
+}
+
+.about-third-screen__beans {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.about-third-screen__line {
+    height: 2px;
+    background-color: black;
+    width: 60px
+}
+
+.about-third-screen__country {
+    margin-top: 25px;
+    font-size: 14px;
+}
+.about-third-screen__country span {
+    font-weight: bold;
+}
+
+.about-third-screen__description {
+    margin-top: 16px;
+    font-size: 14px;
+    width: 418px
+}
+.about-third-screen__description span {
+    font-weight: bold;
+}
+
+.about-third-screen__price {
+    margin-top: 16px;
+    font-size: 14px;
+}
+.about-third-screen__price span {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.about-third-screen__head {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
