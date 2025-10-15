@@ -8,7 +8,6 @@ const ThrirdScreen = () => {
         <div>
             <MainScreenSecond></MainScreenSecond>
             <AboutThirdScreen></AboutThirdScreen>
-
             <Footer></Footer>
         </div>
     )
