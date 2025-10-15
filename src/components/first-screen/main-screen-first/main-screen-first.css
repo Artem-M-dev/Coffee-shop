@@ -1,7 +1,7 @@
 .firstScreenMain {
     position: relative;
     display: block;
-    background: url('../../images/Main-bg.jpg') center center / cover no-repeat;
+    background: url('../../../images/Main-bg.jpg') center center / cover no-repeat;
     margin: 0 auto;
     padding: 30px 150px 200px 150px;
 }

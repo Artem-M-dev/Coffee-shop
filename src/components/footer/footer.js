@@ -1,5 +1,5 @@
 import './footer.css';
-import '../description-screen-first/description-screen-first.css';
+import '../first-screen/description-screen-first/description-screen-first.css';
 import '../header/header.css'
 import coffeeBeans3 from '../../icons/coffee-beans-3.svg';
 import coffeeBeans4 from '../../icons/coffee-beans4.svg'

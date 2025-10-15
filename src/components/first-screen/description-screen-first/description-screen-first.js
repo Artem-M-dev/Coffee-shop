@@ -1,5 +1,5 @@
 import './description-screen-first.css';
-import coffeeBeans3 from '../../icons/coffee-beans-3.svg'
+import coffeeBeans3 from '../../../icons/coffee-beans-3.svg'
 
 const DescriptionScreenFirst = () => {
     return (

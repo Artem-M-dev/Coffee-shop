@@ -1,0 +1,18 @@
+.products-screen-second-item {
+    width: fit-content;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 37px 27px 22px 27px;
+    margin: 0 auto;
+}
+
+.products-screen-second-item__box {
+    text-align: right;
+}
+
+.products-screen-second-item__box-image {
+    display: block;
+    margin: 0 auto;
+    width: 167px;
+    height: 115px;
+}

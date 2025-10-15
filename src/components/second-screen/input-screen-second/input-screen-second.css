@@ -1,0 +1,37 @@
+.input-screen-second {
+    display: flex;
+    width: fit-content;
+    column-gap: 85px;
+    margin: 120px auto 0 auto;
+}
+
+.input-screen-second__buttons {
+    display: flex;
+    column-gap: 5px;
+}
+
+.input-screen-second__btn {
+    all: unset;
+    width: 75px;
+    height: 30px;
+    background-color: #fff;
+    font-size: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+}
+
+.input-screen-second__search {
+    display: flex;
+    column-gap: 20px;
+}
+
+.input-screen-second__input {
+    all: unset;
+    font-size: 12px;
+    width: 180px;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}

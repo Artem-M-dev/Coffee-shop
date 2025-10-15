@@ -1,7 +1,7 @@
 import './products-screen-first.css'
-import ProductsFirstScreenCoffeeBeans1 from '../../icons/products-screen-first__icons/coffee-beans1.png'
-import ProductsFirstScreenCoffeeBeans2 from '../../icons/products-screen-first__icons/coffee-beans2.png'
-import ProductsFirstScreenCoffeeBeans3 from'../../icons/products-screen-first__icons/coffee-beans3.png'
+import ProductsFirstScreenCoffeeBeans1 from '../../../icons/products-screen-first__icons/coffee-beans1.png'
+import ProductsFirstScreenCoffeeBeans2 from '../../../icons/products-screen-first__icons/coffee-beans2.png'
+import ProductsFirstScreenCoffeeBeans3 from'../../../icons/products-screen-first__icons/coffee-beans3.png'
 
 
 const ProductsScreenFirst = () => {

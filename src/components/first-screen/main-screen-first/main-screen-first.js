@@ -1,6 +1,6 @@
 import './main-screen-first.css';
-import Header from '../header/header'
-import coffeeBeans2 from '../../icons/coffee-beans-2.svg'
+import Header from '../../header/header'
+import coffeeBeans2 from '../../../icons/coffee-beans-2.svg'
 
 
 const MainScreenFirst = () => {
