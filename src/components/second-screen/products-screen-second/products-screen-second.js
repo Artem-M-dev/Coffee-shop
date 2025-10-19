@@ -1,8 +1,11 @@
 import ProductsScreenSecondItem from '../products-screen-second-item/products-screen-second-item';
 import './products-screen-second.css';
 
-const ProductsScreenSecond = ({data, margin}) => {
-    const products = data.map(product => {
+const ProductsScreenSecond = ({data, margin, country}) => {
+
+    const newItems = data.filter(item => item.country === country);
+
+    const products = newItems.map(product => {
         return (
             <ProductsScreenSecondItem 
             type={product.type}
@@ -22,7 +25,8 @@ const ProductsScreenSecond = ({data, margin}) => {
                 marginTop: 14,
                 fontWeight: 'lighter',
                 fontSize: 14
-            }}></ProductsScreenSecondItem>
+            }}
+            key={product.id}></ProductsScreenSecondItem>
         )
     })
 
