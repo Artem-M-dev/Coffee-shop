@@ -2,10 +2,3 @@
     background: url('../../../images/Mask-Group2.jpg') center center / cover no-repeat;
     padding: 30px 150px 80px 150px;
 }
-
-.main-screen-second__title {
-    display: block;
-    width: fit-content;
-    margin: 60px auto 0 auto;
-    color: white;
-}

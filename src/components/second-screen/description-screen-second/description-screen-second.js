@@ -1,18 +1,13 @@
 import './description-screen-second.css';
-import coffeeBeans3 from '../../../icons/coffee-beans-3.svg'
-import MaskGroupDescription from '../../../images/Mask-Group3-description.jpg'
+import MaskGroupDescription from '../../../images/Mask-Group3-description.jpg';
+import Title from '../../title/title';
 
 const DescriptionScreenSecond = () => {
     return (
         <div className="description-screen-second">
             <img className="description-screen-second__image" src={MaskGroupDescription} alt="woman" />
             <div className="description-screen-second__content">
-                <h2 style={{fontWeight: 'lighter', margin: '0 0 20px 78px'}}>About our beans</h2>
-                <div className="description-screen-second__beans">
-                    <div className="description-screen-first-line"></div>
-                    <img src={coffeeBeans3} alt='coffee beans'></img>
-                    <div className="description-screen-first-line"></div>
-                </div>
+                <Title style={{fontWeight: 'lighter', margin: '0 0 20px 78px'}} title="About our beans"></Title>
                 <div className="description-screen-second__text">
                     <p style={{marginBottom: 20}}>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.</p>
                     <p>Afraid at highly months do things on at.

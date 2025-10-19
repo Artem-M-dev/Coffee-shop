@@ -1,5 +1,5 @@
 import MainScreenSecond from "../second-screen/main-screen-second/main-screen-second";
-import AboutThirdScreen from "../../third-screen/about-third-screen/about-third-screen";
+import AboutThirdScreen from "../third-screen/about-third-screen/about-third-screen";
 import Footer from "../footer/footer"
 
 

@@ -1,15 +1,10 @@
 import './description-screen-first.css';
-import coffeeBeans3 from '../../../icons/coffee-beans-3.svg'
+import Title from '../../title/title';
 
 const DescriptionScreenFirst = () => {
     return (
         <div className="description-screen-first">
-            <h2 className="description-screen-first__h2">About Us</h2>
-            <div className="description-screen-first-beans">
-                <div className="description-screen-first-line"></div>
-                <img src={coffeeBeans3} alt='coffee beans'></img>
-                <div className="description-screen-first-line"></div>
-            </div>
+            <Title style={{display: 'block', fontWeight: 'lighter', width: 'fit-content', margin: '0 auto'}} title="About Us"></Title>
             <div className="description-screen-first__description">
                 <p>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
 Afraid at highly months do things on at. Situation recommend objection do intention

@@ -1,6 +1,6 @@
 import './about-third-screen.css';
-import coffeeBeans3 from '../../icons/coffee-beans-3.svg';
-import aromistico from '../../images/aromistico_third-screen.jpg'
+import aromistico from '../../../images/aromistico_third-screen.jpg';
+import Title from '../../title/title';
 
 const AboutThirdScreen = () => {
     return (
@@ -9,12 +9,7 @@ const AboutThirdScreen = () => {
 
             <div className="about-third-screen__content">
                 <div className="about-third-screen__head">
-                    <h2>About it</h2>
-                    <div style={{marginTop: 20}} className="about-third-screen__beans">
-                        <div className="about-third-screen__line"></div>
-                        <img src={coffeeBeans3} alt='coffee beans'></img>
-                        <div className="about-third-screen__line"></div>
-                    </div>
+                    <Title style={{fontWeight: 'lighter'}} title="About it"></Title>
                 </div>
                 <div className="about-third-screen__country"><span>Country: </span>Brasil</div>
                 <p className="about-third-screen__description"><span>Description: </span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
